@@ -1,0 +1,16 @@
+#ticker{
+	height: 100px;
+}
+
+.newsTicker li{
+	list-style: none;
+}
+
+.tweet{
+	padding-bottom: 5px;
+}
+
+.date{
+    padding-top: 10px;
+	font-size: x-small;
+}
