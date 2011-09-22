@@ -1,9 +1,4 @@
 <?php
-/* 
-DIT BESTAND MOET WORDEN VERWIJDERD.
-
-DEBUG-MODUS
-*/
 
 function log_me($message) {
     if (WP_DEBUG === true) {
