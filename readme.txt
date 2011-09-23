@@ -9,20 +9,22 @@ Show your tweets in a javascript newsticker.
 
 == Description ==
 
-Like to show your tweets? This is a really simple plugin for showing your tweets one by one with a javascript newsticker.
+Like to show your tweets? This is a really simple plugin for showing your tweets in a widget. One by one with a javascript newsticker.
+
+Example: http://www.omjsmultimedia.nl 
 
 == Installation ==
 
 1. Upload twitticker to the "/wp-content/plugins/" directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to your widgets page and set your date. 
+1. Go to your widgets page and set your data. 
 1. Check your website!
 
 == Frequently Asked Questions ==
 
 = Why use this plugin? =
 
-So you can simple add your tweets on your website with a nice newsticker effect.
+So you can simply add your tweets on your website with a nice newsticker effect.
 
 = Support? =
 
