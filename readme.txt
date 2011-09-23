@@ -39,5 +39,5 @@ You can follow me on twitter @GielvdBerg and tweet: Thnx @GielvdBerg! I use your
 
 == Screenshots ==
 
-1. screenshot-1.png
+1. screenshot1.png
 
