@@ -128,13 +128,13 @@ function Twitticker_mainhead(){
 		
 		 	echo '<link type="text/css" rel="stylesheet" href=" '. TWITTICKER_PLUGIN_URL .'/style/twitticker.css "';
 		 	
-			wp_deregister_script( 'jquery' );
-		    wp_register_script('jquery', TWITTICKER_PLUGIN_URL . '/js/jquery.min.js');
-		    wp_enqueue_script( 'jquery' );
+			wp_deregister_script( 'twitticker_jquery' );
+		    wp_register_script('twitticker_jquery', TWITTICKER_PLUGIN_URL . '/js/jquery.min.js');
+		    wp_enqueue_script( 'twitticker_jquery' );
 			
-			wp_deregister_script( 'newsticker' );
-		    wp_register_script('newsticker', TWITTICKER_PLUGIN_URL . '/js/newsticker.js');
-		    wp_enqueue_script( 'newsticker' );
+			wp_deregister_script( 'twitticker_newsticker' );
+		    wp_register_script('twitticker_newsticker', TWITTICKER_PLUGIN_URL . '/js/newsticker.js');
+		    wp_enqueue_script( 'twitticker_newsticker' );
 	
 		}
 
