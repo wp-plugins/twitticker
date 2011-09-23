@@ -3,7 +3,7 @@
 Plugin Name: Twitticker
 Plugin URI: http://www.omjsmultimedia.nl
 Description: Show your tweets with a javascript newsticker.
-Version: 0.1
+Version: 0.1.1
 Author: Giel vd Berg
 Author URI: http://omjsmultimedia.nl/profiel/Giel/
 
