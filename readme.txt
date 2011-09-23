@@ -28,6 +28,13 @@ So you can simple add your tweets on your website with a nice newsticker effect.
 
 You can follow me on twitter @GielvdBerg and tweet: Thnx @GielvdBerg! I use your plugin #Twitticker! :)
 
+== Changelog ==
+
+= 0.1 =
+
+* Script update
+
+
 == Screenshots ==
 
 1. screenshot-1.png
