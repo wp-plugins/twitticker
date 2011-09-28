@@ -71,11 +71,10 @@ function timeSince($posted_date) {
  
     if ($days>1) {
         // over two day old, just show date (mm/dd/yyyy format)
-        //return 'on '.substr($posted_date,4,2).'/'.substr($posted_date,6,2).'/'.substr($posted_date,0,4);
-        return ''.substr($posted_date,6,2).'/'.substr($posted_date,4,2).'/'.substr($posted_date,0,4); /* Dutchy style */
-    } else {
+       return 'on '.substr($posted_date,4,2).'/'.substr($posted_date,6,2).'/'.substr($posted_date,0,4);
+        
+       } else {
     	
-    	/* English
         if ($weeks>0) {
             // weeks and days
             $relative_date .= ($relative_date?', ':'').$weeks.' week'.($weeks>1?'s':'');
@@ -93,32 +92,12 @@ function timeSince($posted_date) {
             // seconds only
             $relative_date .= ($relative_date?', ':'').$seconds.' second'.($seconds>1?'s':'');
         }
-    	*/
-    
-    	/* Netherlands */
-        if ($weeks>0) {
-            // weeks and days
-            $relative_date .= ($relative_date?', ':'').$weeks.' week'.($weeks>1?'s':'');
-            $relative_date .= $days>0?($relative_date?', ':'').$days.' dag'.($days>1?'en':''):''; 
-        } elseif ($days>0) {
-            // days and hours
-            $relative_date .= ($relative_date?', ':'').$days.' dag'.($days>1?'en':''); 
-        } elseif ($hours>0) {
-            // hours and minutes
-            $relative_date .= ($relative_date?', ':'').$hours.' uur'.($hours>1?'':''); 
-        } elseif ($minutes>0) {
-            // minutes only
-            $relative_date .= ($relative_date?', ':'').$minutes.' minuten'.($minutes>1?'':'');
-        } else {
-            // seconds only
-            $relative_date .= ($relative_date?', ':'').$seconds.' seconden'.($seconds>1?'':'');
-        }
+
        
     }
     // show relative date and add proper verbiage
     
-    //return $relative_date.' ago';
-    return $relative_date.' geleden'; /* Dutchy style */
+    return $relative_date.' ago';
 }
 
 ?>
