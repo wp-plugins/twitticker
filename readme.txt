@@ -3,7 +3,7 @@ Contributors: GielvdBerg
 Tags: twitter, tweet, newsticker, javascript
 Requires at least: 3.2.1
 Tested up to: 3.2.1
-Stable tag: 0.1
+Stable tag: 0.1.3
 
 Show your tweets in a javascript newsticker.
 
@@ -34,6 +34,9 @@ You can follow me on twitter @GielvdBerg and tweet: Thnx @GielvdBerg! I use your
 
 * Script update
 
+=0.1.3 =
+
+* Bugfixes
 
 == Screenshots ==
 
